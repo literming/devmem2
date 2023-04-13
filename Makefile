@@ -1,4 +1,5 @@
 SRC=devmem2.c
+LDFLAGS=-static
 
 devmem2: $(SRC)
 	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $(SRC)
