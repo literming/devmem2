@@ -72,7 +72,7 @@ int main(int argc, char **argv) {
 
 
     if((fd = open("/dev/mem", O_RDWR | O_SYNC)) == -1) FATAL;
-    printf("/dev/mem opened.\n");
+    //printf("/dev/mem opened.\n");
     fflush(stdout);
 
     /* Map one page */
